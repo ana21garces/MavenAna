@@ -20,7 +20,7 @@ class CalculatorTest {
     @Test
     void testSubtraction(){
         Calculator calc = new Calculator();
-        assertEquals(-1, calc.subtract(2,3));
+        assertEquals(-1, calc.substract(2,3));
     }
 
     @Test
